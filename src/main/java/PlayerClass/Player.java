@@ -2,8 +2,6 @@ package PlayerClass;
 
 import Behaviours.IDefend;
 import Behaviours.IHeal;
-import Behaviours.IWeapon;
-import Enemies.Enemy;
 import HealingItems.HealthPotion;
 
 import java.util.ArrayList;
@@ -33,7 +31,7 @@ public abstract class Player implements IDefend, IHeal {
 
     public int heal(){
         if(this.healingItems.size() > 0){
-            this.healthPoints += this.healingItems.get(0).heal();
+            receiveHealth(this.healingItems.get(0).heal());
             this.healingItems.remove(0);
         } else {
             System.out.println("You have no healing items left.");
@@ -47,6 +45,10 @@ public abstract class Player implements IDefend, IHeal {
 
     public int getHealthPoints() {
         return healthPoints;
+    }
+
+    public void receiveHealth(int healthPoints){
+        this.healthPoints += healthPoints;
     }
 
     public ArrayList<IHeal> getHealingItems() {

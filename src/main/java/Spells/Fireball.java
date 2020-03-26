@@ -10,4 +10,5 @@ public class Fireball implements ISpell {
     public void cast(Enemy enemy){
         enemy.takeDamage(this.attackDamage);
     }
+
 }

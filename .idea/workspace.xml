@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54dc13f5-2a6e-4dd0-b58e-1bca4fbdb26e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerClass/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerClass/Mage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Environment/Exit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Environment/Quest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Environment/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/QuestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventureGame.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerClass/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerClass/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlayerClass/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlayerClass/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spells/Fireball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spells/Fireball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BFG9000Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ChestPlateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ClericTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FireballTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HealthPotionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PlayerClass/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PlayerClass/Cleric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PlayerClass/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PlayerClass/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BFG9000Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ChestPlateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ClericTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ClericTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FireballTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HealthPotionTest.class" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +36,7 @@
       <list>
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -52,9 +75,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WizardTest">
-    <configuration name="DoomSlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClan-Java-AdventureGame" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RoomTest">
+    <configuration name="ClericTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventureGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClericTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoomSlayerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DoomSlayerTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -71,6 +115,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AdventureGame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RoomTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WizardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClan-Java-AdventureGame" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,9 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RoomTest" />
+        <item itemvalue="JUnit.ClericTest" />
+        <item itemvalue="JUnit.DoomSlayerTest (1)" />
         <item itemvalue="JUnit.WizardTest" />
         <item itemvalue="JUnit.HellKnightTest" />
-        <item itemvalue="JUnit.DoomSlayerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +155,17 @@
       <updated>1585222000289</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="4206" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1585232029272">
