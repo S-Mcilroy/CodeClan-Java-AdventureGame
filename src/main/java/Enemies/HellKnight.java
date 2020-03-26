@@ -2,8 +2,8 @@ package Enemies;
 
 public class HellKnight extends Enemy{
 
-    public HellKnight(int healthPoints){
-        super(healthPoints, 10);
+    public HellKnight(){
+        super(3, 3);
     }
 
 }

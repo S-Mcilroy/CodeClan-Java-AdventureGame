@@ -8,8 +8,8 @@ public abstract class Mage extends Player implements ISpell {
 
     private ISpell spell;
 
-    public Mage(String name, int healthPoints, ISpell spell){
-        super(name, healthPoints);
+    public Mage(String name, int healthPoints, ISpell spell, IDefend defensiveItem){
+        super(name, healthPoints, defensiveItem);
         this.spell = spell;
     }
 
@@ -17,9 +17,7 @@ public abstract class Mage extends Player implements ISpell {
 
     }
 
-    public void defend(Enemy enemy){
-
+    public ISpell getSpell() {
+        return spell;
     }
-
-
 }

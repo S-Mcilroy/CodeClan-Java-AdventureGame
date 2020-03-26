@@ -4,6 +4,6 @@ import PlayerClass.Player;
 
 public interface IHeal {
 
-    public void heal();
+    public int heal();
 
 }

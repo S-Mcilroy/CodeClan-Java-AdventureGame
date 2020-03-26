@@ -21,7 +21,11 @@ public abstract class Enemy {
     }
 
     public void attack(Player player){
-        player.takeDamage(player.defend());
+        int playerDefense = player.defend();
+        player.takeDamage(attackDamage - playerDefense);
     }
 
+    public int getAttackDamage() {
+        return attackDamage;
+    }
 }
