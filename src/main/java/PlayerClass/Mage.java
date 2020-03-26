@@ -14,7 +14,7 @@ public abstract class Mage extends Player implements ISpell {
     }
 
     public void cast(Enemy enemy){
-
+        this.spell.cast(enemy);
     }
 
     public ISpell getSpell() {
